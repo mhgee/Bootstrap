@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* All photos owned by Michelle Gee*/
+/* CSS Document */
+div:nth-child(1) {
+	color: #DAAF98;
+}
+div:nth-child(2) {
+	color: #DAAF98;
+}
+div:nth-child(3) {
+	
+}
+div:nth-child(4) {
+	
+}
+div:nth-child(5) {
+	
+}
+div:nth-child(6) {
+	
+}
+header {
+	font-size: 50px;
+	text-align: center;
+	color: #DAAF98;
+}
+
+h1, p {
+	color: #B87E7E;
+	text-align: center;	
+}
+h1 {
+	font-family: 'Alegreya SC';
+	font-size: 96px;
+}
+p {
+	font-size: 22px;
+	font-family: sans-serif;
+}
+
+nav ul li a {
+	font-family: 'Allura';
+	font-size: 20px;
+	text-align: center;	
+}
+.navbar-nav {
+	float:none;
+	margin: 0 auto;
+	display: table;
+	table-layout: fixed;
+}
+/* --------------------------------Home------------------------------ */
+.carousel-item {
+ 	height: 100vh;
+ 	min-height: 350px;
+  	background: no-repeat center center scroll;
+  	-webkit-background-size: contain;
+  	-moz-background-size: contain;
+  	-o-background-size: contain;
+  	background-size: contain;
+  	opacity: 0.75;
+}
+.display-4, .lead {
+	color: white;
+	font-family: sans-serif;
+}
+.days {
+	width:900px;  
+    padding:10px;  
+    Overflow: hidden; 
+	align-content: center;
+	margin: auto;
+}
+
+#display-l {
+	font-size: 50px;
+	text-align: center;
+	color: #DAAF98;
+	float:left;  
+    width:400px;  
+}
+#centerLine {
+   float:left;  
+    width:50px;  
+    border-right: 7px solid #B87E7E;  
+    Padding-bottom: 1600px;   
+    Margin-bottom:-1600px; 
+}
+#display-r {
+	font-size: 50px;
+	text-align: center;
+	color: #DAAF98;
+	float:right;  
+    width:400px; 
+}
+
+#countdown {
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+/* --------------------------------Our Story------------------------------ */
+.story {
+	width: 60%;
+	margin: auto;
+	justify-content: center;
+	color: #B87E7E;
+	text-align: center;
+}
+.split {
+	width: 45%;
+	height: 45%;
+	align-content: center;	
+}
+.meet {
+	font-family: sans-serif;
+	padding-bottom: 10px;
+}
+.next {
+	display: flex;
+}
+.story img {
+	width:50%;
+	justify-content: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.story h1 {
+	font-size: 96px;
+	padding-top: 10px;
+}
+/* --------------------------------Photos------------------------------ */
+.row {
+	background-color: #DAAF98;
+}
+.container h1 {
+	font-size: 96px;
+}
+/* --------------------------------Wedding Party------------------------------ */
+.card-body {
+	background-color: #DAAF98;
+}
+.card-text-black, .card-title {
+	color: black !important;
+	text-align: center;
+}
+.row2 {
+	background-color: white;
+}
+
+/* --------------------------------Registry------------------------------ */
+.img_container{
+	position: relative;
+	text-align: center;
+	width:50%;
+	justify-content: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.img_container .btn {
+  	position: absolute;
+  	background-color: #DA9898;
+  	color: #373736;
+  	font-size: 36px;
+  	padding: 12px 24px;
+  	border: none;
+	border-radius: 28px;
+  	text-align: center;
+	align-content: center;
+	
+	margin: auto;
+	height: 100px;
+	width: 300px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.img_container .btn:hover {
+  	background-color: #B87E7E;	
+}
+.header {
+	width:50%;
+	justify-content: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+	
+/* -------------------------------To do------------------------------ */
+h3 {
+	color: white;
+	text-align: center;
+}
+/* -------------------------------To do------------------------------ */
+.h-color {
+	color: #B87E7E;
+}
+/* --------------------------------Travel------------------------------ */
+.card-title a {
+	color: black !important;
+}
